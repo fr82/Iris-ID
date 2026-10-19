@@ -1,7 +1,6 @@
 import cv2
 from config import CAMERA_INDEX
 
-# point
 class Camera:
     def __init__(self):
         self.camera = cv2.VideoCapture(CAMERA_INDEX)
