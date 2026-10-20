@@ -25,7 +25,7 @@ class Interface:
             2
         )
 
-        # Show how many people are currently registered.
+        # Show how many people are registered.
         cv2.putText(
             frame,
             f"Registered users: {user_count}",
