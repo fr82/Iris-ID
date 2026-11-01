@@ -3,7 +3,7 @@ import cv2
 
 class Interface:
     def draw(self, frame, message, user_count):
-        # Display the available keyboard controls at the top of the window.
+        # Display the available controls at the top of the window.
         cv2.putText(
             frame,
             "E: Enrol  A: Authenticate  L: List  D: Delete  Q: Quit",
