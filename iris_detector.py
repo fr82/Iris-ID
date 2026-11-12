@@ -1,7 +1,6 @@
 import cv2
 import mediapipe as mp
 import numpy as np
-
 from config import FEATURE_SIZE, LEFT_IRIS, RIGHT_IRIS
 
 
