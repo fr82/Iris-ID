@@ -1,7 +1,6 @@
 import hashlib
 import os
 import numpy as np
-
 from config import TEMPLATES_DIR
 
 
