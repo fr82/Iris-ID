@@ -1,6 +1,6 @@
 # Iris-ID 👁️
 
-A Python-based iris authentication prototype that uses computer vision to detect eye regions, register users and attempt to recognise them using stored eye-image samples.
+A Python based iris authentication prototype that uses computer vision to detect eye regions, register users and attempt to recognise them using stored eye-image samples.
 
 ## Features
 
