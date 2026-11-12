@@ -1,7 +1,6 @@
 import cv2
 import numpy as np
 
-
 class IrisMatcher:
     def compare_eye(self, eye1, eye2):
         image1 = eye1.astype(np.float32) / 255.0
