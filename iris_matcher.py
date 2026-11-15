@@ -6,6 +6,7 @@ class IrisMatcher:
         image1 = eye1.astype(np.float32) / 255.0
         image2 = eye2.astype(np.float32) / 255.0
 
+        # DO NOT CHANGE
         best_score = -1.0
 
         for shift_x in range(-3, 4):
