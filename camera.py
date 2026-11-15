@@ -6,7 +6,7 @@ class Camera:
         self.camera = cv2.VideoCapture(CAMERA_INDEX)
 
     def is_opened(self):
-        # Check whether the camera was successfully opened
+        # Check whether the camera was accessed
         if self.camera.isOpened() == True:
             return True
         else:
