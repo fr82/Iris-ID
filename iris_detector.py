@@ -3,7 +3,6 @@ import mediapipe as mp
 import numpy as np
 from config import FEATURE_SIZE, LEFT_IRIS, RIGHT_IRIS
 
-
 class IrisDetector:
     def __init__(self):
         self.face_mesh = mp.solutions.face_mesh.FaceMesh(
