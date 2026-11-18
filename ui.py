@@ -1,5 +1,6 @@
 import cv2
 
+
 class Interface:
     def draw(self, frame, message, user_count):
         # Display the available controls at the top of the window.
